@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at top,
+    rgba(0,240,255,0.15),
+    transparent),
+
+    #070816;
+
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+
+  background: rgba(255,255,255,0.03);
+
+  backdrop-filter: blur(12px);
+
+  border-bottom:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.navbar h1 {
+  margin: 0;
+
+  font-size: 28px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00F0FF,
+      #7A5FFF,
+      #FF00AA
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wallet-btn {
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00F0FF,
+      #FF00AA
+    );
+
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  font-size: 90px;
+  line-height: 0.9;
+
+  margin-bottom: 20px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00F0FF,
+      #7A5FFF,
+      #FF00AA
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  max-width: 700px;
+
+  margin: auto;
+
+  color: #B8B8D8;
+
+  font-size: 20px;
+}
+
+.hero-buttons {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+.hero-buttons button {
+  border: none;
+
+  padding: 16px 28px;
+
+  border-radius: 16px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00F0FF,
+      #FF00AA
+    );
+
+  color: white;
+}
+
+.secondary {
+  background: transparent !important;
+
+  border:
+    1px solid rgba(255,255,255,0.2) !important;
+}
